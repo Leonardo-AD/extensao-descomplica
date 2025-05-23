@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lava Rápido do Paulo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lava Rápido do Paulo</h1>
+    <form id="formAgendamento">
+      <input type="text" id="nome" placeholder="Nome do Cliente" required>
+      <input type="text" id="placa" placeholder="Placa do Veículo" required>
+      <button type="submit">Agendar</button>
+    </form>
+
+    <h2>Fila de Espera</h2>
+    <ul id="listaAgendamentos"></ul>
+
+    <h3>Próximo da Fila:</h3>
+    <p id="proximoCliente">Aguardando agendamentos...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
